@@ -1,0 +1,11 @@
+﻿.local/
+node_modules/
+.env
+.replit
+app-state.json
+*.env
+attached_assets/
+vm-agent/
+*.pem
+*serviceaccount*.json
+.local/

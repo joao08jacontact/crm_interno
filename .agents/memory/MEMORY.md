@@ -1,0 +1,3 @@
+- [Persistência JSON universal](json-persistence.md) — todos os dados sobrevivem a reinicializações via app-state.json com debounce de 500ms
+- [Auto-Tarefas architecture](auto-tarefas.md) — flow: DB freshness → PBI refresh + poll → Python script; executor inside registerRoutes, accesses vmBusy/vmQueue/runScriptOnVm directly.
+- [Scheduler pattern](scheduler-pattern.md) — all schedulers use IIFE + setInterval inside registerRoutes; calcPythonNextRun is function declaration (hoisted), accessible to all schedulers.
